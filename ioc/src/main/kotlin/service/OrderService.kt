@@ -1,6 +1,6 @@
-package service
+package ioc.service
 
-import repository.OrderRepository
+import ioc.repository.OrderRepository
 import org.springframework.stereotype.Service
 
 @Service

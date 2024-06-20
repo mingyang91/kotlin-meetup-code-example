@@ -1,4 +1,4 @@
-package repository
+package ioc.repository
 
 import org.springframework.stereotype.Repository
 

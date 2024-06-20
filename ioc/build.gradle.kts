@@ -12,7 +12,8 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter:3.3.0")
-    implementation("org.springframework:spring-context:6.1.8")
+    implementation("org.springframework:spring-web:6.1.9")
+    implementation("org.springframework:spring-context:6.1.9")
 
     testImplementation(kotlin("test"))
 }

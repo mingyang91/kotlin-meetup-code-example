@@ -10,12 +10,16 @@ repositories {
 }
 
 dependencies {
+    implementation("io.ktor:ktor-server-core-jvm:3.0.0-beta-1")
+    implementation("io.ktor:ktor-server-cio:3.0.0-beta-1")
+
     testImplementation(kotlin("test"))
 }
 
 tasks.test {
     useJUnitPlatform()
 }
+
 kotlin {
     compilerOptions {
         freeCompilerArgs = listOf("-Xcontext-receivers")

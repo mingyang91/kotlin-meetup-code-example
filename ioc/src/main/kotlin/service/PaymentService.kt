@@ -1,6 +1,6 @@
-package service
+package ioc.service
 
-import repository.PaymentRepository
+import ioc.repository.PaymentRepository
 import org.springframework.stereotype.Service
 
 @Service

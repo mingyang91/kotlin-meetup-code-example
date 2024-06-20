@@ -2,7 +2,7 @@ package service
 
 import repository.OrderRepository
 
-context(repository.OrderRepository)
+context(OrderRepository)
 class OrderService {
     context(PaymentService)
     fun cancelOrder() {

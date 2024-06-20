@@ -2,7 +2,7 @@ package service
 
 import repository.PaymentRepository
 
-context(repository.PaymentRepository, service.WechatPayService)
+context(PaymentRepository, WechatPayService)
 class PaymentService {
     context(OrderService)
     fun completePayment() {
