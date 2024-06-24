@@ -12,6 +12,7 @@ repositories {
 dependencies {
     implementation("io.ktor:ktor-server-core-jvm:3.0.0-beta-1")
     implementation("io.ktor:ktor-server-cio:3.0.0-beta-1")
+    implementation("com.h2database:h2:2.2.224")
 
     testImplementation(kotlin("test"))
 }
