@@ -3,4 +3,4 @@ plugins {
 }
 rootProject.name = "kotlin-meetup-mall-example"
 
-include("effects", "ioc", "static_final")
+include("effects", "ioc", "static_final", "structural_concurrency")
