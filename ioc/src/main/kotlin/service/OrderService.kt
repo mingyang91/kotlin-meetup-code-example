@@ -7,11 +7,13 @@ import java.util.UUID
 @Service
 class OrderService(
     private val orderRepository: OrderRepository,
-    private val paymentService: PaymentService
+//    private val paymentService: PaymentService
 ) {
     fun cancelOrder(orderId: UUID) {
-        orderRepository.updateOrder("Cancelled")
-        paymentService.cancelPayment()
+        // TODO: 更新订单状态
+//        orderRepository.updateOrder("Cancelled")
+        // TODO: 取消支付
+//        paymentService.cancelPayment()
     }
 
     fun completeOrder() {
